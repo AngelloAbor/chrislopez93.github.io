@@ -3,3 +3,30 @@
     margin: 0;
     padding: 0;
 }
+
+/*Configuración de menú para animación sobre enlaces*/
+ .navbar li {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    margin-right: 1.5rem;
+ }
+
+ .navbar li a {
+    color:#000000;
+    transition: transform 0.5s;
+ }
+
+ .navbar li a:hover{
+    transform: scale(1.5);
+ }
+
+ @media (max-width:767px){    
+     .navbar li a:hover{
+        transform: none;
+     }
+     .navbar li a {
+        color:#000000;
+        transition: transform 0.5s;
+     }
+ }
+/*Fin configuración de menú para animación sobre enlaces*/
