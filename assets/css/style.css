@@ -20,6 +20,13 @@
     transform: scale(1.5);
  }
 
- /* button{
-    border: #000000;
- } */
+ @media (max-width:767px){    
+     .navbar li a:hover{
+        transform: none;
+     }
+     .navbar li a {
+        color:#000000;
+        transition: transform 0.5s;
+     }
+ }
+/*Fin configuración de menú para animación sobre enlaces*/
